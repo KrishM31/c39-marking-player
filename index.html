@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+
+
+    <script>
+      var firebaseConfig = {
+    apiKey: "AIzaSyA7pchMKHU12KSmYaqg2AKi_jbv5SOAO9Q",
+    authDomain: "c36-game-in-database-f0a6a.firebaseapp.com",
+    databaseURL: "https://c36-game-in-database-f0a6a.firebaseio.com",
+    projectId: "c36-game-in-database-f0a6a",
+    storageBucket: "c36-game-in-database-f0a6a.appspot.com",
+    messagingSenderId: "366947620804",
+    appId: "1:366947620804:web:34a2e0feb68d679cf57691"
+  };
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
